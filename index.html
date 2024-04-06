@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Patitas</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div class="center">
+        <h1>Banco Patitas</h1>
+<!-- <label id="errorMsg" for="">....</label> -->
+
+        <div id="login-menu">
+            <h3>Login</h3>
+            <label for="">Account No:</label>
+            <input type="text" id="loginAccNum" class="textbox-style" required>
+            <label for="">Password:</label>
+            <input type="text" id="loginPass" class="textbox-style" required>
+            <button id="login-btn">Login</button>
+            <label for="" id="switchRegisterBtn" class="switch">Don't have an account? Register</label>
+
+        </div>
+
+        <div id="register-menu">
+            <h3>Register</h3>
+            <label for="">Name:</label>
+            <input type="text" id="rAccName" class="textbox-style" required>
+            <label for="">Account No:</label>
+            <input type="text" id="rAccNum" class="textbox-style" required>
+            <label for="">Password:</label>
+            <input type="text" id="rAccPass" class="textbox-style" required>
+            <label for="">Confirm Password:</label>
+            <input type="text" id="rAccConfPass" class="textbox-style" required>
+            <button id="register-btn">Register</button>
+            <label for="" id="switchLogBtn" class="switch">Already have an account Login</label>
+
+        </div>
+
+        <div id="portal">
+            <label id="userName">.....</label>
+            <label id="totalBal">.....</label>
+
+            <div id="deposit-menu">
+                <h4>Deposit</h4>
+                <label for="">Enter Amount:</label>
+                <input type="text" id="deposit-amount" class="textbox-style" required>
+                <button id="deposit-submit">Deposit</button>
+            </div>
+
+            <div id="withdraw-menu">
+                <h4>Withdraw</h4>
+                <label for="">Enter Amount:</label>
+                <input type="text" id="withdraw-amount" class="textbox-style" required>
+                <button id="withdraw-submit">Withdraw</button>
+            </div>
+
+            <div id="transfer-menu">
+                <h4>Transfer</h4>
+                <label for="">Enter Amount:</label>
+                <input type="text" id="transfer-amount" class="textbox-style" required>
+                <label for="">Enter Transfer Account No:</label>
+                <input type="text" id="transfer-acc-no" class="textbox-style" required>
+                <button id="transfer-submit">Transfer</button>
+            </div>
+
+            <div id="options">
+                <h3>What do you want to do?</h3>
+                <button id="deposit-btn">Deposit</button>
+                <button id="withdraw-btn">Withdraw</button>
+                <button id="transfer-btn">Transfer</button>
+                <button id="back-btn">Back</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    
+</body>
+</html>
